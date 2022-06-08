@@ -70,5 +70,5 @@ btns:Button(
     end
 )
 
-local lbls = serv:Channel("Labels")
+local lbls = serv:Channel("Changelog")
 lbls:Label("HUBS COMING SOON.")
