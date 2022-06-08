@@ -1,0 +1,75 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("Orchid UI v2 (BETA)")
+
+local serv = win:Server("Main Tab", "")
+
+local btns = serv:Channel("Home")
+
+btns:Button(
+    "Da Hood Modded",
+    function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+        DiscordLib:Notification("Orchid UI", "GUI has been loaded.", "Okay!")
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "Da Hood",
+    function() loadstring(game:HttpGet(("https://pastebin.com/raw/h6CaSmCD")))();
+        DiscordLib:Notification("Orchid UI", "GUI has been loaded.", "Okay!")
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "Arsenal",
+    function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Storm99999/whitelistkeys/main/SCRIPT_VIP.lua"))()
+        DiscordLib:Notification("Orchid UI", "GUI has been loaded.", "Okay!")
+    end
+)
+
+btns:Seperator()
+
+
+btns:Button(
+    "Hoop Central 6",
+    function() key,HC6 = "hoop horny"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sinsly/hellokitty/main/HC6"))()
+        DiscordLib:Notification("Orchid UI", "GUI has been loaded.", "Okay!")
+    end
+)
+
+
+btns:Seperator()
+
+btns:Button(
+    "Hoop Central 6",
+    function() key,HC6 = "hoop horny"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sinsly/hellokitty/main/HC6"))()
+        DiscordLib:Notification("Orchid UI", "GUI has been loaded.", "Okay!")
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "MM2",
+    function()
+        DiscordLib:Notification("Orchid UI", "OUT OF ORDER", "Okay!")
+    end
+)
+
+local btns = serv:Channel("Universal Scripts")
+
+btns:Button(
+    "Orchid Mini UI v.0.0.1",
+    function() loadstring(game:HttpGet("https://pastebin.com/raw/NgD8hR09",true))()
+        DiscordLib:Notification("Orchid UI", "Loaded GUI", "Okay!")
+    end
+)
+
+win:Server("Credits", "http://www.roblox.com/asset/?id=6031075938")
