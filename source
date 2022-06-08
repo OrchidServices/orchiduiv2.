@@ -81,4 +81,4 @@ btns:Button(
     end
 )
 
-win:Server("Credits", "http://www.roblox.com/asset/?id=6031075938")
+lbls:Label("HUBS COMING SOON.")
