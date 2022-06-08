@@ -43,17 +43,6 @@ btns:Button(
     end
 )
 
-
-btns:Seperator()
-
-btns:Button(
-    "Hoop Central 6",
-    function() key,HC6 = "hoop horny"
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/sinsly/hellokitty/main/HC6"))()
-        DiscordLib:Notification("Orchid UI", "GUI has been loaded.", "Okay!")
-    end
-)
-
 btns:Seperator()
 
 btns:Button(
