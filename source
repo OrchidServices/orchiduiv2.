@@ -72,4 +72,13 @@ btns:Button(
     end
 )
 
+btns:Seperator()
+
+btns:Button(
+    "FOV Changer (120)",
+    function() workspace.CurrentCamera.FieldOfView = 120
+        DiscordLib:Notification("Orchid UI", "Loaded Script.", "Okay!")
+    end
+)
+
 win:Server("Credits", "http://www.roblox.com/asset/?id=6031075938")
