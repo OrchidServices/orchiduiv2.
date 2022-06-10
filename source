@@ -70,11 +70,27 @@ btns:Button(
     end
 )
 
+local lbls = serv:Channel("Hubs")
+btns:Button(
+    "EZ Hub",
+    function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+        DiscordLib:Notification("Orchid UI", "Loaded Script.", "Okay!")
+    end
+)
+
+btns:Seperator()
+
+btns:Button(
+    "Cheesy Hub",
+    function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseyMine/CheeseyHub/main/CheeseyHubV6"))()
+        DiscordLib:Notification("Orchid UI", "Loaded Script.", "Okay!")
+    end
+
+)
+
 local lbls = serv:Channel("Changelog")
-lbls:Label("HUBS COMING SOON.")
-lbls:Label("Updated 6/8/2022")
-lbls:Label("-Added Games")
-lbls:Label("-Added Universal Scripts")
+lbls:Label("Updated 6/10/2022")
+lbls:Label("-Added Hubs!")
 lbls:Label("I did not make any of these scripts!")
 lbls:Label("All I did was put them into a UI library.")
 lbls:Label("discord: moh#7330")
