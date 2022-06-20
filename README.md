@@ -4,3 +4,6 @@ No scripts are made by me all i did was put them in a ui library and you can fin
 most of the scripts are from robloxscripts.com
 robloxscripts.com is the best website for scripts.
 dc: moh#7330
+https://pst.klgrth.io/paste/6o6dapsh
+
+PASS : orchid
